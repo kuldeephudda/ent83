@@ -1,0 +1,71 @@
+<?php
+/*
+ * Your installation or use of this SugarCRM file is subject to the applicable
+ * terms available at
+ * http://support.sugarcrm.com/Resources/Master_Subscription_Agreements/.
+ * If you do not agree to all of the applicable terms or do not have the
+ * authority to bind the entity as an authorized representative, then do not
+ * install or use this SugarCRM file.
+ *
+ * Copyright (C) SugarCRM Inc. All rights reserved.
+ */
+$mod_strings = array (
+  'LBL_TEAM' => 'الفرق',
+  'LBL_TEAMS' => 'الفرق',
+  'LBL_TEAM_ID' => 'معرّف الفريق',
+  'LBL_ASSIGNED_TO_ID' => 'معرّف المستخدم المعين',
+  'LBL_ASSIGNED_TO_NAME' => 'تعيين إلى',
+  'LBL_TAGS_LINK' => 'العلامات',
+  'LBL_TAGS' => 'العلامات',
+  'LBL_ID' => 'المعرّف',
+  'LBL_DATE_ENTERED' => 'تاريخ الإنشاء',
+  'LBL_DATE_MODIFIED' => 'تاريخ التعديل',
+  'LBL_MODIFIED' => 'تم التعديل بواسطة',
+  'LBL_MODIFIED_ID' => 'تم التعديل بواسطة المعرّف',
+  'LBL_MODIFIED_NAME' => 'تم التعديل بواسطة الاسم',
+  'LBL_CREATED' => 'تم الإنشاء بواسطة',
+  'LBL_CREATED_ID' => 'تم الإنشاء بواسطة المعرّف',
+  'LBL_DOC_OWNER' => 'مالك المستند',
+  'LBL_USER_FAVORITES' => 'المستخدمون الذي يفضلون',
+  'LBL_DESCRIPTION' => 'الوصف',
+  'LBL_DELETED' => 'تم الحذف',
+  'LBL_NAME' => 'الاسم',
+  'LBL_CREATED_USER' => 'تم الإنشاء بواسطة مستخدم',
+  'LBL_MODIFIED_USER' => 'تم التعديل بواسطة مستخدم',
+  'LBL_LIST_NAME' => 'الاسم',
+  'LBL_EDIT_BUTTON' => 'تحرير',
+  'LBL_REMOVE' => 'إزالة',
+  'LBL_EXPORT_MODIFIED_BY_NAME' => 'تم التعديل بواسطة الاسم',
+  'LBL_LIST_FORM_TITLE' => 'Exchanges القائمة',
+  'LBL_MODULE_NAME' => 'Exchanges',
+  'LBL_MODULE_TITLE' => 'Exchanges',
+  'LBL_MODULE_NAME_SINGULAR' => 'Exchanges',
+  'LBL_HOMEPAGE_TITLE' => 'الخاص بي Exchanges',
+  'LNK_NEW_RECORD' => 'إنشاء Exchanges',
+  'LNK_LIST' => 'عرض Exchanges',
+  'LNK_IMPORT_E_EXCHANGES' => 'Import Exchanges',
+  'LBL_SEARCH_FORM_TITLE' => 'بحث Exchanges',
+  'LBL_HISTORY_SUBPANEL_TITLE' => 'عرض السجل',
+  'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'سير النشاط الكلي',
+  'LBL_E_EXCHANGES_SUBPANEL_TITLE' => 'Exchanges',
+  'LBL_NEW_FORM_TITLE' => 'جديد Exchanges',
+  'LNK_IMPORT_VCARD' => 'Import Exchanges vCard',
+  'LBL_IMPORT' => 'Import Exchanges',
+  'LBL_IMPORT_VCARDTEXT' => 'Automatically create a new Exchanges record by importing a vCard from your file system.',
+  'LBL_DATESHIPPED' => 'Date Shipped',
+  'LBL_DEFECTIVEPCB' => 'Defective PCB',
+  'LBL_DEFECTIVEPRINTERRECEIVED' => 'Defective Printer Received',
+  'LBL_DEFECTIVEPRINTHEAD' => 'Defective Printhead',
+  'LBL_NOTES' => 'Notes',
+  'LBL_RECORDTYPE' => 'Record Type',
+  'LBL_REPLACEMENTPARTNUMBER' => 'Replacement Part Number',
+  'LBL_REPLACEMENTPRINTHEADASSEMBLY' => 'Replacement Printhead Assembly',
+  'LBL_REPLACEMENTPRINTHEADSERIALN' => 'Replacement Printhead Serial Number',
+  'LBL_REPLACEMENTQUANTITY' => 'Replacement Quantity',
+  'LBL_REPRINT' => 'Reprint',
+  'LBL_SHIPVIA' => 'Ship Via',
+  'LBL_CURRENCY' => 'Currency',
+  'LBL_SHIPPINGCOST' => 'Shipping Cost',
+  'LBL_STATUS' => 'Status',
+  'LBL_TRACKINGNUMBER' => 'Tracking Number',
+);
