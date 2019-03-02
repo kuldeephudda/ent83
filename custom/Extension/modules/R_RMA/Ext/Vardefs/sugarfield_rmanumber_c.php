@@ -5,4 +5,5 @@ $dictionary['R_RMA']['fields']['rmanumber_c']['required']=false;
 $dictionary['R_RMA']['fields']['rmanumber_c']['readonly']=true;
 $dictionary['R_RMA']['fields']['name']['required']=false;
 $dictionary['R_RMA']['fields']['name']['readonly']=true;
+
  ?>

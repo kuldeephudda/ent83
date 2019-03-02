@@ -191,39 +191,198 @@ array (
                 'name' => 'case_number',
                 'readonly' => true,
               ),
-              1 => 'priority',
+              1 => 'status',
               2 => 
-              array (
-                'name' => 'callorigin_c',
-                'label' => 'LBL_CALLORIGIN',
-              ),
-              3 => 
-              array (
-              ),
-              4 => 
               array (
                 'name' => 'customersstatedissue_c',
                 'label' => 'LBL_CUSTOMERSSTATEDISSUE',
               ),
-              5 => 
+              3 => 
               array (
-                'name' => 'errorcode_c',
-                'label' => 'LBL_ERRORCODE',
+                'name' => 'callorigin_c',
+                'label' => 'LBL_CALLORIGIN',
               ),
-              6 => 
+              4 => 
               array (
                 'name' => 'description',
                 'nl2br' => true,
                 'span' => 6,
               ),
-              7 => 
+              5 => 
               array (
                 'name' => 'account_name',
                 'span' => 6,
               ),
+              6 => 
+              array (
+                'name' => 'datetimeopened_c',
+                'label' => 'LBL_DATETIMEOPENED',
+              ),
+              7 => 
+              array (
+                'name' => 'datetimeclosed_c',
+                'label' => 'LBL_DATETIMECLOSED',
+              ),
+              8 => 
+              array (
+                'name' => 'errorcode_c',
+                'label' => 'LBL_ERRORCODE',
+              ),
+              9 => 
+              array (
+              ),
             ),
           ),
           2 => 
+          array (
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+            'name' => 'LBL_RECORDVIEW_PANEL1',
+            'label' => 'LBL_RECORDVIEW_PANEL1',
+            'columns' => 2,
+            'labelsOnTop' => 1,
+            'placeholders' => 1,
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'contactname_c',
+                'studio' => 'visible',
+                'label' => 'LBL_CONTACTNAME',
+              ),
+              1 => 
+              array (
+                'name' => 'secondarycontactname_c',
+                'studio' => 'visible',
+                'label' => 'LBL_SECONDARYCONTACTNAME',
+              ),
+              2 => 
+              array (
+                'name' => 'contactemail_c',
+                'label' => 'LBL_CONTACTEMAIL',
+              ),
+              3 => 
+              array (
+                'name' => 'secondaryaccountname_c',
+                'studio' => 'visible',
+                'label' => 'LBL_SECONDARYACCOUNTNAME',
+              ),
+              4 => 
+              array (
+                'name' => 'contactphone_c',
+                'label' => 'LBL_CONTACTPHONE',
+              ),
+              5 => 
+              array (
+                'name' => 'secondaryemail_c',
+                'label' => 'LBL_SECONDARYEMAIL',
+              ),
+              6 => 
+              array (
+                'name' => 'region_c',
+                'label' => 'LBL_REGION',
+              ),
+              7 => 
+              array (
+                'name' => 'secondaryphone_c',
+                'label' => 'LBL_SECONDARYPHONE',
+              ),
+            ),
+          ),
+          3 => 
+          array (
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+            'name' => 'LBL_RECORDVIEW_PANEL3',
+            'label' => 'LBL_RECORDVIEW_PANEL3',
+            'columns' => 2,
+            'labelsOnTop' => 1,
+            'placeholders' => 1,
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'shipping_state_c',
+                'label' => 'LBL_SHIPPING_STATE',
+              ),
+              1 => 
+              array (
+                'name' => 'shippingaddress_city_c',
+                'label' => 'LBL_SHIPPINGADDRESS_CITY',
+              ),
+              2 => 
+              array (
+                'name' => 'shipping_street_c',
+                'label' => 'LBL_SHIPPING_STREET',
+              ),
+              3 => 
+              array (
+                'name' => 'shipping_zip_code_c',
+                'label' => 'LBL_SHIPPING_ZIP_CODE',
+              ),
+              4 => 
+              array (
+                'name' => 'shippingaddress_country_c',
+                'label' => 'LBL_SHIPPINGADDRESS_COUNTRY',
+              ),
+              5 => 
+              array (
+              ),
+            ),
+          ),
+          4 => 
+          array (
+            'newTab' => false,
+            'panelDefault' => 'collapsed',
+            'name' => 'LBL_RECORDVIEW_PANEL2',
+            'label' => 'LBL_RECORDVIEW_PANEL2',
+            'columns' => 2,
+            'labelsOnTop' => 1,
+            'placeholders' => 1,
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 's_serialnumber_cases_1_name',
+              ),
+              1 => 
+              array (
+              ),
+              2 => 
+              array (
+                'name' => 'warrantystart_c',
+                'label' => 'LBL_WARRANTYSTART',
+              ),
+              3 => 
+              array (
+                'name' => 'warrantyend_c',
+                'label' => 'LBL_WARRANTYEND',
+              ),
+              4 => 
+              array (
+                'name' => 'warrantywarning_c',
+                'label' => 'LBL_WARRANTYWARNING',
+              ),
+              5 => 
+              array (
+                'name' => 'warrantystatus_c',
+                'label' => 'LBL_WARRANTYSTATUS',
+              ),
+              6 => 
+              array (
+              ),
+              7 => 
+              array (
+              ),
+              8 => 
+              array (
+              ),
+              9 => 
+              array (
+              ),
+            ),
+          ),
+          5 => 
           array (
             'name' => 'panel_hidden',
             'label' => 'LBL_RECORD_SHOWMORE',

@@ -112,6 +112,38 @@ array (
                 'label' => 'LBL_DELETE_BUTTON_LABEL',
                 'acl_action' => 'delete',
               ),
+              10 => 
+              array (
+                'type' => 'rowaction',
+                'event' => 'button:print_tag:click',
+                'name' => 'print_tag',
+                'label' => 'Print Tag',
+                'acl_action' => 'edit',
+              ),
+              11 => 
+              array (
+                'type' => 'rowaction',
+                'event' => 'button:shipping_info_sheet:click',
+                'name' => 'shipping_info_sheet',
+                'label' => 'Shipping Info Sheet',
+                'acl_action' => 'edit',
+              ),
+              12 => 
+              array (
+                'type' => 'rowaction',
+                'event' => 'button:rma_reprint:click',
+                'name' => 'rma_reprint',
+                'label' => 'RMA Reprint',
+                'acl_action' => 'edit',
+              ),
+              13 => 
+              array (
+                'type' => 'rowaction',
+                'event' => 'button:start_repair:click',
+                'name' => 'start_repair',
+                'label' => 'Start Repair',
+                'acl_action' => 'edit',
+              ),
             ),
           ),
           3 => 
@@ -190,8 +222,7 @@ array (
               ),
               4 => 
               array (
-                'name' => 'caseid_c',
-                'label' => 'LBL_CASEID',
+                'name' => 'cases_r_rma_1_name',
               ),
               5 => 
               array (
@@ -219,7 +250,11 @@ array (
               12 => 
               array (
                 'name' => 'tag',
-                'span' => 12,
+                'span' => 6,
+              ),
+              13 => 
+              array (
+                'span' => 6,
               ),
             ),
           ),
@@ -485,7 +520,7 @@ array (
           7 => 
           array (
             'newTab' => false,
-            'panelDefault' => 'expanded',
+            'panelDefault' => 'collapsed',
             'name' => 'LBL_RECORDVIEW_PANEL6',
             'label' => 'LBL_RECORDVIEW_PANEL6',
             'columns' => 2,
@@ -528,9 +563,13 @@ array (
               0 => 
               array (
                 'name' => 'description',
-                'span' => 12,
+                'span' => 6,
               ),
               1 => 
+              array (
+                'span' => 6,
+              ),
+              2 => 
               array (
                 'name' => 'date_modified_by',
                 'readonly' => true,
@@ -554,7 +593,7 @@ array (
                   ),
                 ),
               ),
-              2 => 
+              3 => 
               array (
                 'name' => 'date_entered_by',
                 'readonly' => true,

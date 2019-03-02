@@ -35,7 +35,6 @@
  ********************************************************************************/
 
 
-
 $app_list_strings['type_list'][''] = '';
 $app_list_strings['type_list']['Email'] = 'Email';
 $app_list_strings['type_list']['Online'] = 'Online';
@@ -200,4 +199,14 @@ $app_list_strings['type_0']['TRASH'] = 'TRASH';
 $app_list_strings['type_0']['EVAL'] = 'EVAL';
 $app_list_strings['type_0']['RTS CREDIT'] = 'RTS CREDIT';
 $app_list_strings['type_0']['RTS - DEMO'] = 'RTS - DEMO';
+
+
+$app_list_strings['case_status_dom']=array (
+  'Open' => 'Open',
+  'Assigned' => 'Working',
+  'RMAIssued' => 'RMA Issued',
+  'LoanIssued' => 'Loan Issued',
+  'ExchangeIssued' => 'Exchange Issued',
+  'Closed' => 'Closed',
+);
 

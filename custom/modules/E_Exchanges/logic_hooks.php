@@ -7,6 +7,7 @@ $hook_array = Array();
 $hook_array['after_save'] = Array(); 
 $hook_array['before_save'] = Array(); 
  // $hook_array['after_save'][] = Array(1, 'Create RMA after Exchange', 'custom/modules/E_Exchanges/exchangehooks.php','CustomExchangeHooks', 'createRMA'); 
+
 $hook_array['before_save'][] = Array(1, 'Auto generate Exchange Number', 'custom/modules/E_Exchanges/exchangehooks.php','CustomExchangeHooks', 'saveExchangeNumber'); 
 
 

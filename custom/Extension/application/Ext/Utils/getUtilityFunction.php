@@ -1,7 +1,7 @@
 <?php 
 function getLoanNumber(){
 	global $db;
-	$qry = "Select name FROM magi_loan WHERE deleted=0 AND name<>''  ORDER BY CAST(REPLACE(name,'LN-','') AS UNSIGNED) DESC limit 1 ";	
+	$qry = "Select name FROM l_loan WHERE deleted=0 AND name<>''  ORDER BY CAST(REPLACE(name,'LN-','') AS UNSIGNED) DESC limit 1 ";	
 	$res = $db->Query($qry);					
 	if(!$res){
 		$GLOBALS['log']->info("Error");
@@ -48,6 +48,24 @@ function getRMANumber(){
 		list($type, $prev_inv_no) = @explode('-', $row['name']);
 		$exchange_number = (int) $prev_inv_no + 1;						
 		$exchange_number = "RMA-".$exchange_number;					
+	}
+	return $exchange_number;
+}
+
+function getRepairNumber(){
+	global $db;
+	$qry = "Select name FROM re_repairsevals  WHERE deleted=0 AND name<>'' ORDER BY CAST(REPLACE(name,'RMA-','') AS UNSIGNED) DESC limit 1";
+	$res = $db->Query($qry);					
+	if(!$res){
+		$GLOBALS['log']->info("Error");
+	}
+	if($res->num_rows <= 0){
+		$exchange_number = 'RPR-30000';
+	}else{
+		$row = $res->fetch_assoc();
+		list($type, $prev_inv_no) = @explode('-', $row['name']);
+		$exchange_number = (int) $prev_inv_no + 1;						
+		$exchange_number = "RPR-".$exchange_number;					
 	}
 	return $exchange_number;
 }

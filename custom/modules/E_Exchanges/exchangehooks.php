@@ -8,6 +8,7 @@ class CustomExchangeHooks{
 	*/
 	function createRMA(&$bean, $event, $argument) {
 		#RMA should not be created for existing exchange
+		
 		if($bean->magi_rma_id_c==""){
 			$rmabean=BeanFactory::getBean("magi_RMA");
 			$rmabean->recordtype="RepairorEval";

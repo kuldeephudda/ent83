@@ -12,7 +12,6 @@ class rmahooks{
 			$bean->rmanumber_c=$rma_number;			
 			$bean->name=$rma_number;
 
-			// die("ddddddd");
 		}		
 	}
 }
