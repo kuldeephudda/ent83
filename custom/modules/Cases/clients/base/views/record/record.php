@@ -133,6 +133,30 @@ array (
                 'label' => 'LBL_DELETE_BUTTON_LABEL',
                 'acl_action' => 'delete',
               ),
+              12 => 
+              array (
+                'type' => 'rowaction',
+                'event' => 'button:status_open:click',
+                'name' => 'status_open',
+                'label' => 'Open',
+                'acl_action' => 'edit',
+              ),
+              13 => 
+              array (
+                'type' => 'rowaction',
+                'event' => 'button:status_working:click',
+                'name' => 'status_working',
+                'label' => 'Working',
+                'acl_action' => 'edit',
+              ),
+              14 => 
+              array (
+                'type' => 'rowaction',
+                'event' => 'button:status_close:click',
+                'name' => 'status_close',
+                'label' => 'Close',
+                'acl_action' => 'edit',
+              ),
             ),
           ),
           3 => 
